@@ -10,9 +10,11 @@ namespace DAL
     public class PersonDAO
     { 
         public void add(Person person) {
-            var session=ConnectDB.createstore().OpenSession();
-            session.Store(person);
-            session.SaveChanges();
+            using (var session = ConnectDB.createstore().OpenSession())
+            {
+                session.Store(person);
+                session.SaveChanges();
+            }
         }
         public void delete(string personID) {
             var session = ConnectDB.createstore().OpenSession();

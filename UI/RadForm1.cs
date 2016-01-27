@@ -41,15 +41,15 @@ namespace UI
             string message = "";
             if (bll.add(person, out message))
             {
-                
-                // GridView.Refresh();
-                opensession();
+                //opensession();
+               // GridView.Refresh();
                 MessageBox.Show(message);
             }
             else {
                 MessageBox.Show(message);
                 lastname_add.Focus();
             }
+            opensession();
             
 
         }
@@ -67,19 +67,16 @@ namespace UI
             string message = "";
             string LastName = lastname_update.Text.Trim();
             string FirstName = firstname_update.Text.Trim();
-            
-            
-                if (bll.update(personID, LastName, FirstName, out message))
+            if (bll.update(personID, LastName, FirstName, out message))
                 {
-                opensession();
+                
                     MessageBox.Show(message);
                 }
                 else {
                     MessageBox.Show(message);
                 }
-            
-           
-           
+            opensession();
+
         }
 
         private void del_button_Click(object sender, EventArgs e)
@@ -88,12 +85,13 @@ namespace UI
             string message = "";
             if (bll.delete(personID, out message))
             {
-                opensession();
+               
                 MessageBox.Show(message);
             }
             else {
                 MessageBox.Show(message);
             }
+            opensession();
 
         }
 

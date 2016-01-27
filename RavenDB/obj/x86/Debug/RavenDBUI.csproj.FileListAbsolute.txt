@@ -1,1 +1,0 @@
-E:\testproject\RavenDB\RavenDB\bin\Debug\RavenDBUI.exe.config
