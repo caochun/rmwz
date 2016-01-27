@@ -1,0 +1,17 @@
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Studio.Html5.zip
+E:\testproject\RavenDB\DAL\bin\Debug\DAL.dll.config
+E:\testproject\RavenDB\DAL\bin\Debug\DAL.dll
+E:\testproject\RavenDB\DAL\bin\Debug\DAL.pdb
+E:\testproject\RavenDB\DAL\bin\Debug\Model.dll
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Abstractions.dll
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Client.Lightweight.dll
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Database.dll
+E:\testproject\RavenDB\DAL\bin\Debug\Model.pdb
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Abstractions.pdb
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Abstractions.xml
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Client.Lightweight.pdb
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Client.Lightweight.xml
+E:\testproject\RavenDB\DAL\bin\Debug\Raven.Database.pdb
+E:\testproject\RavenDB\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\testproject\RavenDB\DAL\obj\Debug\DAL.dll
+E:\testproject\RavenDB\DAL\obj\Debug\DAL.pdb
